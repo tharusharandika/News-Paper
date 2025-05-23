@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Chronicle</title>
+    <style>
+        .body{
+            padding-left: 325px;
+            padding-right: 325px;
+        }
+        .headline{
+            font-family: Old English Text MT;
+            text-align: center;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .head-subtitle{
+            font-style: italic;
+            text-align: center;
+            line-height: 0.2;
+            color: gray;
+        }
+        .heading-detail{
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 0px;
+            line-height: 0.1;
+            color: gray;
+        }
+        .newspaper{
+            column-count: 3;
+            column-gap: 20px;
+            column-rule:1px solid lightgray;
+        }
+        .reporter{
+            font-style: italic;
+            color: gray;
+            font-size: x-small;
+            margin-top: 10px;
+        }
+        .h2{
+            margin-bottom: 4px;
+        }
+        .h3{
+            color: darkred;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .h4{
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+        .p{
+            font-size: small;
+            line-height: 1.5;
+            margin-top: 15px;
+        }
+        .leftBorder{
+            border-inline-start: 3px solid darkred;
+            font-style: italic;
+            padding-left: 20px;
+            text-align:left;
+            color: darkred;
+            line-height: 1.5;
+        }
+        .column-split {
+            break-before: column;
+        }
+        .classifiedAd1{
+            text-align: center;
+            color: darkred;
+            padding: 20px;
+            border: 1px solid gray;
+            border-style: dotted;
+            border-bottom-style: hidden;
+        }
+        .classifiedAd2{
+            text-align: center;
+            color: gray;
+            border: 1px solid gray;
+            border-style: dotted;
+            border-top-style: hidden;
+            font-size: small;
+            line-height: 1.5;
+            margin-top: 15px;
+            padding-bottom: 10px;
+        }
+        .weather{
+            border: 1px solid gray;
+            padding-top: 15px;
+            padding-left: 10px;
+            line-height: 1.5;
+        }
+        .weather h3{
+            color: darkred;
+            margin-top: 0;
+        }
+        .weather b{
+            font-weight: bold;
+        }
+        .breakingNews{
+            border-style: solid;
+            border-color: darkred;
+            background-color: darkred;
+            color: white;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 80%;
+        }
+        .caption{
+            font-style: italic;
+            color: gray;
+            margin-top: 10px;
+        }
+        .advertisement{
+            border: 1px dotted gray;
+        }
+        .advertisement h3{
+            color: darkred;
+            text-align: center;
+        }
+        .advertisement p{
+            text-align: center;
+            padding-inline: 10px;
+        }
+        .table{
+            border-color: black;
+            width: 100%;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body class="body">
+    <article class="headline">
+        <h1>The Daily Chronicle</h1>
+    </article>
+    <article class="head-subtitle">
+        <p>All the News That's Fit to Print</p>
+    </article>
+    <article class="heading-detail">
+        <hr>
+        <p>vol clcvii . no. 58,429 | new york, wednesday, april 23, 2025 | price 50$</p>
+        <hr>
+        <hr style="height:3px;border-width:0;color:gray;background-color:gray">
+    </article>
+    <article class="newspaper">
+        <div style="break-inside: avoid; width: 100%;">
+            <div>
+                <h2 class="h2">President Announces New Climate Initiative</h2>
+                <hr>
+                <p class="reporter">By JAMES R. ELLIOTT | WASHINGTON BUREAU</p>
+                <h4 class="h4">
+                    WASHINGTON - President Johnson unveiled an ambitious $2 trillion climate change plan yesterday that would transform the nation's energy infrastructure over the next decade, calling it "the most significant investment in our planet's future since the moon landing."
+                </h4>
+                <p class="p">
+                    The proposal, dubbed the "Green New Horizon," would create millions of jobs while rapidly accelerating the transition to renewable energy sources. Key components include:
+                </p>
+                <ul class="p">
+                    <li>Complete decarbonization of the power grid by 2035 </li>
+                    <li>Tax incentives for electric vehicle adoption </li>
+                    <li>Modernization of public transportation systems</li>
+                    <li>Funding for climate resilience projects</li>
+                </ul>
+                <h3 class="leftBorder">"This isn't just about saving the planet for future generations—it's about creating good jobs 
+                    right now for American workers," the President said during his Rose Garden announcement. </h3>
+                <p class="p">Republican leaders immediately criticized the plan as too expensive and government-heavy. 
+                    Senate Minority Leader Mark Richardson (R-KY) called it "a socialist wish list that will cripple 
+                    our economy." 
+                </p>
+                <p class="p">
+                    Meanwhile, environmental groups praised the initiative while urging even more aggressive 
+                    action. "This is a good start, but the science demands we move faster," said Sierra Club 
+                    executive director Maya Chen.
+                </p>
+                <h3 class="h3">
+                    Local Impact
+                </h3>
+                <p class="p">
+                    For New Yorkers, the plan would mean significant upgrades to subway infrastructure, 
+                    expanded bike lanes, and new job training programs in green energy sectors. Mayor Williams 
+                    hailed the proposal as "exactly what cities need to combat climate change while rebuilding 
+                    our middle class."
+                </p>
+                <hr color="gray" size="1px">
+            </div>
+            <div>
+                <h2 class="h2">
+                    Tech Giant Unveils Revolutionary AI Assistant
+                </h2>
+                <hr size="2px" color="gray">
+                <p class="reporter">
+                    By SARAH K. LEWIS | TECHNOLOGY CORRESPONDENT 
+                </p>
+                <p class="p">
+                    SAN FRANCISCO - NeuroTech Inc. yesterday demonstrated what it calls "the world's first 
+                    truly sentient artificial intelligence," named EVA, capable of complex reasoning, emotional 
+                    intelligence, and creative problem-solving beyond current AI systems.
+                </p>
+                <p class="p">
+                    During a 90-minute live demonstration, EVA:
+                </p>
+                <ul class="p">
+                    <li>Diagnosed a complex medical case (with physician supervision)</li>
+                    <li>Composed an original piano sonata in the style of Beethoven</li>
+                    <li>Engaged in philosophical debate about consciousness</li>
+                    <li>Solved advanced quantum physics equations</li>
+                </ul>
+                <p class="p">
+                    "This represents a fundamental breakthrough in machine learning," said NeuroTech CEO Dr. 
+                    Alan Fischer. "EVA doesn't just process information—she understands context, nuance, and 
+                    even humor."
+                </p>
+                <h3 class="classifiedAd1">CLASSIFIED AD</h3>
+            </div>
+        </div>
+        <div class="column-split">
+            <p class="classifiedAd2">
+                ROOM FOR RENT - Upper West Side. Sunny, spacious room in pre-war building. $1,200/mo. 
+                Near subway. No pets. Call 212-555-0192
+            </p>
+            <h3 class="h3">
+                Ethical Concerns Raised
+            </h3>
+            <p class="p">
+                While the technology dazzled attendees, ethicists warned about potential dangers. "We need 
+                strict regulations before deploying such powerful AI," said MIT professor Dr. Helena Minsky. 
+                "The risks of misuse or unintended consequences are enormous."
+            </p>
+            <p class="p">
+                NeuroTech says EVA will initially be available only to research institutions and will undergo 
+                extensive safety testing before any commercial release.
+            </p>
+            <hr>
+            <div>
+                <h2 class="h2">Yankees Win Home Opener in Extra Innings</h2>
+                <hr size="2px" color="gray">
+                <p class="reporter">
+                    By MICHAEL T. RODRIGUEZ | SPORTS WRITER
+                </p>
+                <p class="p">
+                    BRONX - In a thrilling season opener at Yankee Stadium last night, the home team defeated 
+                    the Boston Red Sox 6-5 in 11 innings, with rookie sensation Carlos Mendez hitting a walk-off 
+                    home run.
+                </p>
+                <p class="p">
+                    The game featured:
+                </p>
+                <ul class="p">
+                    <li>A benches-clearing brawl in the 7th inning </li>
+                    <li>Three lead changes</li>
+                    <li>An incredible catch by center fielder Jamal Williams</li> 
+                    <li>The longest game in opening day history (4 hours, 38 minutes)</li>
+                </ul>
+                <p class="p">
+                    "This is why we play the game," said Yankees manager Dave Martinez. "That was baseball 
+                    at its best."
+                </p>
+                <h3 class="leftBorder">
+                    "When I saw that fastball coming, I just swung with everything I had. Hearing the crowd 
+                    erupt—that's a feeling I'll never forget." - Carlos Mendez
+                </h3>
+                <p class="p">
+                    The teams meet again tonight at 7:05 PM, with ace pitcher Luis Tanaka scheduled to start for 
+                    the Yankees.
+                </p>
+                <div class="weather">
+                    <h3>Today's Weather</h3>
+                    <p class="p">
+                        <b>New York City : </b>
+                        Sunny with clouds increasing in the afternoon. High 68°F. Winds NE at 5-10 
+                        mph.
+                    </p>
+                    <p class="p">
+                        <b>Tonight: </b>
+                        Partly cloudy. Low 52°F.
+                    </p>
+                    <p class="p">
+                        <b>Tomorrow: </b>
+                        Chance of showers. High 63°F.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2 class="breakingNews">BREAKING NEWS</h2>
+                <h2 class="h2">
+                    Subway Derailment in Brooklyn
+                </h2>
+                <hr size="2px" color="gray">
+                <p class="p">
+                    BROOKLYN - A Manhattan-bound F train derailed near the Jay St-MetroTech station this 
+                    morning during rush hour, causing significant delays on multiple lines. Emergency responders 
+                    are on the scene.
+                </p>
+                <p class="p">
+                    Initial reports indicate at least 12 minor injuries but no fatalities. MTA officials say service will 
+                    be disrupted for several hours while the incident is investigated.
+                </p>
+                <p class="p">
+                    Alternate routes are being established, with increased bus service along affected routes. 
+                    Commuters are advised to avoid the area if possible.
+                </p>
+                <hr>
+            </div>
+            <div>
+                <h2 class="h2">Arts & Culture</h2>
+                <hr size="2px" color="gray">
+            </div>
+        </div>
+        <div class="column-split">
+            <img src="computer.jpg" alt="coding" width="225px" height="225px">
+            <h6 class="caption">"Starry Night Over the Rhône" will be part of the exhibition</h6>
+            <h3 class="h3">
+                Met Announces Blockbuster Van Gogh Exhibition
+            </h3>
+            <p class="p">
+                The Metropolitan Museum of Art revealed plans for "Van Gogh: The Complete Journey," the 
+                most comprehensive exhibition of the artist's work ever assembled, opening June 15. 
+            </p>
+            <p class="p">
+                The show will feature over 200 pieces, including rarely seen private collection works and 
+                newly authenticated drawings. A special virtual reality experience will allow visitors to "step 
+                inside" several of Van Gogh's most famous paintings.
+            </p>
+            <div class="advertisement">
+                <h3>ADVERTISEMENT</h3>
+                <p><b>Columbia University Extension - </b>Fall registration now open! Over 100 courses in arts, 
+                    sciences, and professional studies. Evening and weekend classes available. Visit 
+                    extension.columbia.edu or call 212-555-0125 
+                </p>
+            </div>
+            <h3 class="h3">
+                Broadway Review: 'American Elegy' Stuns
+            </h3>
+            <p>The new play by Pulitzer winner August Wilson Jr. opened last night to standing ovations at 
+                the Cort Theatre. Starring Viola Davis and Chadwick Boseman, this generational saga about 
+                a Black family in 20th century America is being called "the theatrical event of the decade" by 
+                critics. 
+            </p>
+            <p>
+                Performances continue through August, with talk of a possible London transfer next year. 
+            </p>
+            <hr>
+            <h2 class="h2">Business & Finance</h2>
+            <hr size="2px" color="gray">
+            <h3 class="h3">Stock Markets Reach Record Highs</h3>
+            <p class="p">
+                NEW YORK - The Dow Jones Industrial Average closed above 45,000 for the first time 
+                yesterday amid optimism about the economic recovery and strong corporate earnings reports.
+            </p>
+            <table class="table" border="1">
+                <tr>
+                    <th>Index</th>
+                    <th>Close</th>
+                    <th>Change</th>
+                </tr>
+                <tr>
+                    <td>Dow Jones</td>
+                    <td>45,102.87</td>
+                    <td>+328.45</td>
+                </tr>
+                <tr>
+                    <td>S&P 500</td>
+                    <td>5,213.76</td>
+                    <td>+42.18</td>
+                </tr>
+                <tr>
+                    <td>NASDAQ</td>
+                    <td>15,887.23</td>
+                    <td>+156.92</td>
+                </tr>
+            </table>
+            <p class="p">
+                "The market continues to show remarkable resilience," said Goldman Sachs chief economist 
+                Dr. Lisa Wong. "While we expect some volatility ahead, the fundamentals remain strong." 
+            </p>
+            <h3 class="h3">Amazon Workers Vote to Unionize</h3>
+            <p class="p">
+                In a landmark decision, workers at an Amazon fulfillment center in Staten Island voted 
+                overwhelmingly to join the International Warehouse Workers Union yesterday—the first 
+                successful unionization effort at an Amazon facility in the U.S. 
+            </p>
+            <p class="p">
+                The 1,543-982 vote comes after a contentious two-year organizing campaign that saw 
+                allegations of union-busting tactics from Amazon, which denies the claims.
+            </p>
+        </div>
+    </article>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+</body>
+</html>
